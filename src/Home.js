@@ -1,11 +1,21 @@
-import React from 'react';
+import React from "react";
+import HeroSection from "./components/HeroSection";
+
 
 const Home = () => {
-  return (
-    <div>
-      {/* Component JSX */}
-    </div>
-  );
+    const data = {
+        name : "Kanha Travels",
+        imgData : "images/car.jpg",
+    };
+    
+
+    return (
+      <>
+        <HeroSection myData = {data} />;
+        
+      </>
+    );
 };
 
 export default Home;
+
